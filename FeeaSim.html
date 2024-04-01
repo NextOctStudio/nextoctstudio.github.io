@@ -5,7 +5,7 @@
         function removeTrailingSlash() {
             var currentUrl = window.location.href;
             if (currentUrl.substr(-5, 5) === '.html') {
-                currentUrl = currentUrl.substr(0, currentUrl.length() - 5);
+                currentUrl = currentUrl.substr(0, currentUrl.length-5);
                 window.history.replaceState({}, '', currentUrl);
             }
         }
