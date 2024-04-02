@@ -1,26 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script>
-        function removeTrailingSlash() {
-            var currentUrl = window.location.href;
-            if (currentUrl.substr(-1) === '/') {
-                currentUrl = currentUrl.substr(0, currentUrl.length-1);
-                window.history.replaceState({}, '', currentUrl);
-            }
-        }
-    </script>
     <meta charset="UTF-8">
     <title>NextOct Studio</title>
   <style>
+    @font-face {
+      font-family: 'GenSenRounded TW R';
+      src:url(font/GenSenRounded-R.ttc);
+    }
+    * {
+      font-family: "GenYoGothic TW R";
+    }
     body {
-      font-family: "Arial", sans-serif;
+      color: rgb(64, 64, 64);
+      font-family: "Arial";
+      padding: 0;
+      margin: 0;
     }
   </style>
 </head>
 <body>
-<h1>NextOct Studio</h1>
-<font size="5"><p><a href="https://www.nextoct.top/FeeaSim">FeeaSim</a></p></font>
-<font size="5"><p><a href="https://www.bilibili.com/bangumi/play/ss1733">The Legend of LuoXiaohei</a></p></font>
+  <div class="top" style="position: sticky; top: 0;">
+    <a class="nextoct" href="https://www.nextoct.top"><img src="https://s21.ax1x.com/2024/04/02/pFHiYCt.png" alt="pFHiYCt.png" border="0" height="30px"></a>
+    <button class="home" style="position: absolute; right: 0;" onclick="location.href=('https://www.nextoct.top')">Home</button>
+    <button class="FeeaSim" style="position: absolute; right: 0;" onclick="location.href=('https://www.nextoct.top/FeeaSim')">FeeaSim</button>
+  </div>
+  <style type="text/css">
+    .top {
+      height: 50px;
+      line-height: 50px;
+      padding-left: 50px;
+      display: flex;
+      box-shadow: 0px 1px 5px #888888;
+      background-color: #FFFFFF;
+    }
+    .nextoct {
+      padding-left: 10px;
+      display: flex;
+      align-items: center;
+    }
+    .home, .FeeaSim {
+      width: 100px;
+      height: 50px;
+      color: #FFFFFF;
+      font-size: 20px;
+      border: 0;
+    }
+    .home {
+      margin-right: 130px;
+      background-color: rgb(70, 130, 200);
+    }
+    .home:hover {
+      background-color: rgba(70, 130, 200, 0.9);
+    }
+    .FeeaSim {
+      margin-right: 30px;
+      background-color: rgb(255, 114, 54);
+    }
+    .FeeaSim:hover {
+      background-color: rgba(255, 114, 54, 0.9);
+    }
+  </style>
+  <div class="FS">
+    <img class="logo" src="https://s21.ax1x.com/2024/04/02/pFHmwAU.png" alt="pFHmwAU.png" border="0">
+    <span class="info" href="https://www.nextoct.top/FeeaSim">Railway Simulator ››</span>
+  </div>
+  <div>
+    <img class="display" src="https://s21.ax1x.com/2024/04/02/pFHliAP.png" alt="pFHliAP.png" border="0">
+  </div>
+  <style type="text/css">
+    .logo {
+      margin-left: 80px;
+      margin-top: 50px;
+      height: 60px;
+    }
+    .info {
+      float: right;
+      margin-right: 100px;
+      margin-top: 80px;
+      font-size: 30px;
+      color: rgb(64, 64, 64);
+      text-decoration: none;
+    }
+    .info:hover {
+      color: #0095C8;
+    }
+    .display {
+      height: 500px;
+      margin-top: 40px;
+      margin-left: 80px;
+    }
+  </style>
+  <div class="bottom" style="bottom: 0;">
+    <span class= "license">Content is available under CC BY-SA 4.0 unless otherwise noted.</span>
+    <span class="copyright" style="float: right;">Copyright © 2024 Jan Suoh & NextOct Studio All rights reserved.</span>
+  </div>
+  <style type="text/css">
+    .bottom {
+      margin-top: 80px;
+      height: 30px;
+      border-top: 1px solid #AAAAAA;
+      padding-left: 80px;
+      padding-top: 20px;
+    }
+    .license{
+      margin-top: 50px;
+      color: #555555;
+    }
+    .copyright {
+      margin-right: 50px;
+    }
+  </style>
 </body>
 </html>
