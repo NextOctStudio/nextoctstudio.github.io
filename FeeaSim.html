@@ -13,29 +13,27 @@
     }
     body {
       color: rgb(64, 64, 64);
-      font-family: "Arial";
       padding: 0;
       margin: 0;
     }
   </style>
 </head>
-<body>
+<body style="background: #FFFFFF;">
   <div class="top" style="position: sticky; top: 0;">
     <a class="nextoct" href="https://www.nextoct.top"><img src="https://s21.ax1x.com/2024/04/02/pFHiYCt.png" alt="pFHiYCt.png" border="0" height="30px"></a>
-    <button class="home" style="position: absolute; right: 0;" onclick="location.href=('https://www.nextoct.top')">Home</button>
-    <button class="FeeaSim" style="position: absolute; right: 0;" onclick="location.href=('https://www.nextoct.top/FeeaSim')">FeeaSim</button>
+    <a class="home" style="position: absolute; right: 0;" href="https://www.nextoct.top">Home</a>
+    <a class="FeeaSim" style="position: absolute; right: 0;" href="https://www.nextoct.top/FeeaSim">FeeaSim</a>
   </div>
   <style type="text/css">
     .top {
       height: 50px;
       line-height: 50px;
-      padding-left: 50px;
+      padding-left: 60px;
       display: flex;
       box-shadow: 0px 1px 5px #888888;
       background-color: #FFFFFF;
     }
     .nextoct {
-      padding-left: 10px;
       display: flex;
       align-items: center;
     }
@@ -45,6 +43,8 @@
       color: #FFFFFF;
       font-size: 20px;
       border: 0;
+      text-decoration: none;
+      text-align: center;
     }
     .home {
       margin-right: 130px;
@@ -66,8 +66,6 @@
     <p class="info">Railway Simulator</p>
     <img class="display" src="https://s21.ax1x.com/2024/04/02/pFHliAP.png" alt="pFHliAP.png" border="0">
   </div>
-  <div>
-  </div>
   <style type="text/css">
     .FS {
       text-align: center;
@@ -75,7 +73,7 @@
     .logo {
       margin-top: 50px;
       height: 60px;
-      display: inline;
+
     }
     .info {
       font-size: 30px;
@@ -86,25 +84,27 @@
     }
   </style>
   <div class="bottom" style="bottom: 0;">
-    <span class= "license">Content is available under CC BY-SA 4.0 unless otherwise noted.</span>
-    <span class="copyright" style="float: right;">Copyright © 2024 Jan Suoh & NextOct Studio All rights reserved.</span>
+    <div style="border-bottom: 1px solid rgb(200, 204, 209); padding-bottom: 10px;">
+      <span style="color: #555555; font-size: 25px; vertical-align: middle;">NextOct Studio</span></br>
+    </div>
+    <div style="color: #555555; padding-top: 20px;" style="display: inline-block;">
+      <span style="display: inline-block;">Content is available under CC BY-SA 4.0 unless otherwise noted.</span></br>
+      <span style="display: inline-block; padding-top: 10px;">© 2024 Jan Suoh & NextOct Studio All rights reserved.</span>
+      <div style=" padding-top: 10px; float: right; word-spacing: 20px;">
+        <a href="https://twitter.com/NextOctStudio" style="display: inline-block; color: #0095C8; text-decoration: none;">Twitter(X)</a>
+        <a href="https://www.youtube.com/@NextOctStudio" style="display: inline-block; color: #0095C8; text-decoration: none;">YouTube</a>
+      </div>
+    </div>
   </div>
   <style type="text/css">
     .bottom {
       margin-top: 80px;
-      height: 30px;
-      border-top: 1px solid #AAAAAA;
       padding-left: 80px;
-      padding-top: 20px;
-    }
-    .license{
-      font-size: calc(calc(100vw / 750 * 230) / 27.6);
-      margin-top: 50px;
-      color: #555555;
-    }
-    .copyright {
-      font-size: calc(calc(100vw / 750 * 230) / 27.6);
-      margin-right: 50px;
+      padding-top: 40px;
+      padding-right: 80px;
+      height: 120px;
+      background-color: #F0F0F0;
+      border-top: 1px solid #AAAAAA;
     }
   </style>
 </body>
