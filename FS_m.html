@@ -23,9 +23,9 @@
 <body style="background: #FFFFFF;">
   <div class="top" style="position: sticky; top: 0;">
     <a class="nextoct" href="https://www.nextoct.top"><img src="https://s21.ax1x.com/2024/04/02/pFHiYCt.png" alt="pFHiYCt.png" border="0" height="30px"></a>
-    <div class="li" onclick="showOrHide()">
+    <div class="li">
       <button class="list_icon" style="user-select: none;">☰</button>
-      <div class="list" id="list" style="position: absolute; right: 0;">
+      <div class="list" id="list" style="position: absolute; right: 0;" onclick="showOrHide(); return false;">
         <a class="home" href="https://www.nextoct.top">Home</a></br>
         <a class="FeeaSim" href="https://www.nextoct.top/FeeaSim">FeeaSim</a>
       </div>
@@ -89,19 +89,12 @@
   <script type="text/javascript">
     var list = document.getElementById("list");
 
-    function showOrHide() {
+    window.showOrHide = function(e) {
+      e.preventDefault();
       if (list.style.display == "none") {
         list.style.display = "block";
       } else {
         list.style.display = "none"
-      }
-    }
-
-    function hide() {
-      if (list.style.display == "block") {
-        list.style.display = "none";
-      } else {
-        list.style.display = "block";
       }
     }
   </script>
