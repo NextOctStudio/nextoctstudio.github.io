@@ -19,15 +19,16 @@
       margin: 0;
     }
   </style>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body style="background: #FFFFFF;">
   <div class="top" style="position: sticky; top: 0;">
     <a class="nextoct" href="https://www.nextoct.top"><img src="https://s21.ax1x.com/2024/04/02/pFHiYCt.png" alt="pFHiYCt.png" border="0" height="30px"></a>
     <div class="li">
-      <button class="list_icon" style="user-select: none;">☰</button>
-      <div class="list" id="list" style="position: absolute; right: 0;" onclick="showOrHide(); return false;">
-        <a class="home" href="https://www.nextoct.top">Home</a></br>
-        <a class="FeeaSim" href="https://www.nextoct.top/FeeaSim">FeeaSim</a>
+      <button class="list_icon" type="button" style="user-select: none;">☰</button>
+      <div class="list" id="list" style="position: absolute; right: 0; display: none;">
+        <a class="home" href="https://www.nextoct.top;">Home</a>
+        <a class="FeeaSim" href="https://www.nextoct.top/FeeaSim;">FeeaSim</a>
       </div>
     </div>
   </div>
@@ -62,41 +63,40 @@
       background-color: #F0F0F0;
     }
     .list {
-      display: none;
       border: 1px solid #AAAAAA;
       border-right: 0;
       margin-top: 50px;
       width: 150px;
-      height: 78px;
+      height: 80px;
     }
-    .list a {
-      padding-left: 10px;
+    .home, .FeeaSim {
       width: 140px;
       height: 40px;
+      padding-left: 10px;
       line-height: 40px;
       background-color: #FAFAFA;
     }
-    .list a:hover {
+    .home:hover, .FeeaSim:hover {
       background-color: #F0F0F0;
     }
     .FeeaSim {
-      margin-top: 20px;
-    }
-    .li:active .list {
-      display: block;
+      margin-top: 40px;
     }
   </style>
   <script type="text/javascript">
-    var list = document.getElementById("list");
-
-    window.showOrHide = function(e) {
-      e.preventDefault();
-      if (list.style.display == "none") {
-        list.style.display = "block";
-      } else {
-        list.style.display = "none"
-      }
-    }
+    $(document).ready(function(e) {
+      $(".list_icon").on("click", function(e) {
+        e.stopPropagation();
+        if ($(".list").hasClass("show")) {
+          $(".list").hide().removeClass("show");
+        } else {
+          $(".list").show().addClass("show");
+        }
+      });
+      $(document).click(function() {
+        $(".list").hide().removeClass("show");
+      });
+    });
   </script>
   <div class="FS">
     <img class="logo" src="https://s21.ax1x.com/2024/04/02/pFHmwAU.png" alt="pFHmwAU.png" border="0"></br>
