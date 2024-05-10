@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FeeaSim</title>
+  <link rel="shortcut icon" href="https://s21.ax1x.com/2024/05/02/pkkJh60.png" type="image/x-icon">
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <style>
+    @font-face {
+      font-family: 'GenSenRounded TW R';
+      src:url(../font/GenSenRoundedTW-R.ttf) format('truetype');
+    }
+    * {
+      font-family: "GenSenRounded TW R";
+    }
+    body {
+      color: rgb(64, 64, 64);
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="div"></div>
+  <script language="JavaScript">
+    if (/phone|pad|pod|iPhone|iPod|ios|iPad|Android|Fennec|BlackBerry|Mobile|IEMobile|MQQBrowser|JUC|Fennec|WosBrowser|BrowserNG|WebOS|Symbian|Windows Phone/i.test(navigator.userAgent)) {
+      $("#div").load("../FS_m.html");
+    } else {
+      $("#div").load("FS.html");
+    }
+  </script>
+</body>
