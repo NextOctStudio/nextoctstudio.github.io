@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Nextoct Studio</title>
+    <link>http://www.nextoct.top/posts/</link>
+    <description>Recent content in Posts on Nextoct Studio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>2024 Jan Suoh All rights reserved.</copyright>
+    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.nextoct.top/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About FeeaSim</title>
+      <link>http://www.nextoct.top/posts/feeasim/</link>
+      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://www.nextoct.top/posts/feeasim/</guid>
+      <description>The new railway simulator programmed in Java.&#xA;FeeaSim can also customize the Route Pack and Train Pack in the game. FeeaSim will plan to support model formats such as .obj or .b3d. </description>
+    </item>
+  </channel>
+</rss>
