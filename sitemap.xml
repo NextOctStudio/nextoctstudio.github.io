@@ -2,25 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://www.nextoct.top/posts/feeasim/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <loc>https://www.nextoct.top/categories/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.nextoct.top/categories/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <loc>https://www.nextoct.top/tags/feeasim/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.nextoct.top/tags/discription/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <loc>https://www.nextoct.top/projects/feeasim/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.nextoct.top/categories/feeasim/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <loc>https://www.nextoct.top/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.nextoct.top/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <loc>https://www.nextoct.top/posts/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.nextoct.top/posts/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <loc>https://www.nextoct.top/projects/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://www.nextoct.top/tags/</loc>
-    <lastmod>2024-07-23T00:00:00+00:00</lastmod>
+    <loc>https://www.nextoct.top/categories/projects/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.nextoct.top/tags/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.nextoct.top/posts/website-update-20241022/</loc>
+    <lastmod>2024-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.nextoct.top/thanks/</loc>
   </url>
 </urlset>

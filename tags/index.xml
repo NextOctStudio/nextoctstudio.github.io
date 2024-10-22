@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Nextoct Studio</title>
-    <link>http://www.nextoct.top/tags/</link>
-    <description>Recent content in Tags on Nextoct Studio</description>
+    <title>Tags on NextOct Stuido</title>
+    <link>https://www.nextoct.top/tags/</link>
+    <description>Recent content in Tags on NextOct Stuido</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>2024 Jan Suoh All rights reserved.</copyright>
-    <lastBuildDate>Tue, 23 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.nextoct.top/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <lastBuildDate>Tue, 22 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.nextoct.top/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Discription</title>
-      <link>http://www.nextoct.top/tags/discription/</link>
-      <pubDate>Tue, 23 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://www.nextoct.top/tags/discription/</guid>
+      <title>Feeasim</title>
+      <link>https://www.nextoct.top/tags/feeasim/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://www.nextoct.top/tags/feeasim/</guid>
       <description></description>
     </item>
   </channel>
