@@ -7,12 +7,17 @@
 .gallery-item {
     background: #f0f0f0;
     height: 3em;
-    display: flex;
+    
     padding-left: 0.5em;
     padding-top: 0.25em;
     font-size: 3em;
     grid-column: 1 / -1;
     border-radius: 10px;
+}
+
+.gallery-time {
+    font-size: 0.4em;
+    margin-top: 0.5em;
 }
 
 .gallery-item:hover {
@@ -31,8 +36,19 @@
 
 .section-text {
     font-size: 1.25em;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-left: 5px;
+    max-width: 40em;
+    line-height: 1.4;
+}
+
+.section-date {
+    color: #555555;
+}
+
+.section-list {
+    font-size: 1.25em;
+    margin-left: 35px;
     max-width: 70vw;
 }
 
