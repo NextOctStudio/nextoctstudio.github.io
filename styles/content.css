@@ -2,6 +2,10 @@
     min-width: 22em;
 }
 
+.content-section {
+    width: 45em;
+}
+
 .post-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -59,13 +63,12 @@
     margin-left: 20vw;
     width: 20vw;
     border-radius: 10px;
-    min-height: 19em;
-    padding-bottom: 8em;
+    height: 25em;
 }
 
 .post-list2 {
     margin-left: 11vw;
-    width: 16.1vw;
+    width: 17.3em;
 }
 
 .post-list-p {
