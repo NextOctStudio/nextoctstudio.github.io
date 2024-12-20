@@ -54,3 +54,7 @@ a {
     color: #0095C8;
     text-decoration: none;
 }
+
+.min-gap {
+    gap: 20px;
+}

@@ -1,15 +1,19 @@
-.gallery-grid {
+.post-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.post-grid-big {
     gap: 20px;
 }
 
-.gallery-item {
+.post-item {
     background: #f0f0f0;
-    height: 3em;
+    height: 3.5em;
     padding-left: 0.5em;
     padding-top: 0.3em;
-    font-size: 2.75em;
+    font-size: 26.5px;
     grid-column: 1 / -1;
     border-radius: 10px;
     white-space: nowrap;
@@ -17,17 +21,27 @@
     text-overflow:ellipsis;
 }
 
-.gallery-time {
+.post-item-big {
+    height: 3em;
+    font-size: 2.75em;
+}
+
+.post-time {
     margin-left: 0px;
+    font-size: 17.5px;
+    margin-top: 1em;
+}
+
+.post-time-big {
     font-size: 0.4em;
     margin-top: 1.6em;
 }
 
-.gallery-item:hover {
+.post-item:hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 5px 20px -20px inset, rgba(0, 0, 0, 0.3) 0px 5px 20px -15px inset;
 }
 
-.gallery-item:active {
+.post-item:active {
     background: #f8f8f8;
 }
 
