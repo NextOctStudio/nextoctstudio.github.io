@@ -1,3 +1,7 @@
+.post-section, .content-section {
+    min-width: 22em;
+}
+
 .post-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -20,6 +24,7 @@
     overflow:hidden;
     text-overflow:ellipsis;
     user-select: none;
+    min-width: 40vw;
 }
 
 .post-item-big {
@@ -45,6 +50,44 @@
 
 .post-item:active {
     background: #f8f8f8;
+}
+
+.post-list {
+    background: #f0f0f0;
+    padding-left: 1em;
+    padding-top: 1em;
+    margin-left: 20vw;
+    width: 20vw;
+    border-radius: 10px;
+    min-height: 19em;
+    padding-bottom: 8em;
+}
+
+.post-list2 {
+    margin-left: 11vw;
+    width: 16.1vw;
+}
+
+.post-list-p {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.post-list-li2 {
+    list-style-type: "";
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.post-list-li {
+    list-style-type: "-  ";
+    margin-left: 25px;
+    font-size: 19.75px;
+}
+
+.post-list-ul {
+    margin-top: 5px;
 }
 
 .section-title {
