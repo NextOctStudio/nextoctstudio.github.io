@@ -19,6 +19,7 @@
 .site-title {
     font-size: 2em;
     font-weight: normal;
+    user-select: none;
 }
 
 .navigation {

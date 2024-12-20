@@ -19,6 +19,7 @@
     white-space: nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
+    user-select: none;
 }
 
 .post-item-big {
@@ -30,6 +31,7 @@
     margin-left: 0px;
     font-size: 17.5px;
     margin-top: 1em;
+    user-select: none;
 }
 
 .post-time-big {
