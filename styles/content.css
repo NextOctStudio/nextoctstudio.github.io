@@ -1,9 +1,9 @@
-.post-section, .content-section {
-    min-width: 22em;
-}
-
 .content-section {
     max-width: 45em;
+}
+
+.post-section {
+    min-width: 22em;
 }
 
 .post-grid {
