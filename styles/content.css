@@ -3,7 +3,7 @@
 }
 
 .post-section {
-    width: 48em;
+    min-width: 48em;
 }
 
 .post-grid {
