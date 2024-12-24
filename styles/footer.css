@@ -1,14 +1,21 @@
 .footer {
-    padding-left: 3em;
-    padding-top: 40px;
-    padding-right: 3em;
+    padding: 0 5vw;
     max-width: 1400px;
     margin: 0 auto;
     height: 12em;
+    bottom: 0;
+    background-color: #FCFCFC;
+}
+
+.footer-main {
+    padding: 0 3em;
+    padding-top: 40px;
+    max-width: 1208px;
+    height: 12em;
     background-color: #F0F0F0;
     border-top: 1px solid #AAAAAA;
-    bottom: 0;
 }
+
 .footer-404 {
     margin-top: 50vh;
 }
